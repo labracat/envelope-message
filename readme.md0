@@ -1,0 +1,13 @@
+i figured it was about time to learn sockets and I wanted to practice creating a digital envelope. start the server first and then connect the client. The server accepts any connction on 8080. The client must itentify the the secet paint in "connect.socket". 
+
+I dont know how to stop the processes gracefully yet.  kill the clent first with 2 ^s and then kill the server with 1 ^s. 
+
+future enhancements will include multiple clients being able to message each other
+
+also, the client is essentially a back door so I want to add a remote shell in the future.
+
+
+Any suggestions for improving the code are appreciated. I dont really know how good the encryption is I just know wireshark does not display any clear text.
+
+
+Thank you to all the other programmers who have published code and descriptions on these topics. 
